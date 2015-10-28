@@ -1,4 +1,4 @@
-words = open("enable1.txt", "r").read().splitlines()
+words = open("../../lib/enable1.txt", "r").read().splitlines()
 
 def find_longest(subset):
     longest = ""
