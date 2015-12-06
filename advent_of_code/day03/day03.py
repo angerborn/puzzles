@@ -17,7 +17,7 @@ def houses_visited(santacount, directions):
         santas[santanumber] = current
     return visited
 
-with open("data/day3.in", "r") as f:
+with open("input", "r") as f:
     elf_directions = f.read().strip()
 print len(houses_visited(1, elf_directions)) # part 1
 print len(houses_visited(2, elf_directions)) # part 2

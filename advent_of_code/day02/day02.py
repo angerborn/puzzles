@@ -10,7 +10,7 @@ def ribbon_for_dimensions(l, w, h):
 
 paper = 0
 ribbon = 0
-with open("data/day2.in", "r") as f:
+with open("input", "r") as f:
     for line in f.readlines():
         l, w, h = map(int, line.split("x"))
         paper += paper_for_dimensions(l, w, h)
